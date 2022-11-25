@@ -1,0 +1,46 @@
+.logo {
+    text-transform: uppercase;
+    color: $secondary;
+    @include fsz(30px);
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    strong {
+        color: $primary;
+    }
+    @media #{$phone} {
+        @include fsz(20px);
+    }
+    @media #{$phone-portrait} {
+        @include fsz(16px);
+    }
+}
+
+.logo--large {
+    @include fsz(44px);
+    @media #{$phone} {
+        @include fsz(26px);
+    }
+}
+
+.super--smaller {
+    @include fsz(8px);
+    @media #{$phone} {
+        @include fsz(4px);
+    }
+}
+
+.super--large {
+    @include fsz(25px);
+    @media #{$phone} {
+        @include fsz(15px);
+    }
+}
+
+.sub {
+    @include fsz(15px);
+    vertical-align: sub;
+    @media #{$phone} {
+        @include fsz(4px);
+    }
+}

@@ -1,0 +1,141 @@
+.accordion__top {
+    background-color: $secondary;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @media#{$phone} {
+        display: none;
+    }
+}
+
+.accordion__topWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accordion__topTitle {
+    @include fsz(24px);
+    font-family: $primary-family;
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.accordion__icon {
+    background-color: $white;
+    padding: 9px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 0 8px;
+}
+
+.accordion__wrap {
+    font-family: $primary-family;
+    @include fsz(24px);
+    line-height: 1.3;
+    background: $white;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    p {
+        margin-bottom: 12px;
+    }
+    @media #{$phone} {
+        @include fsz(14px);
+    }
+}
+
+.accordion__title {
+    @include fsz(28px);
+    color: $secondary;
+    font-weight: 700;
+    margin-bottom: 4px;
+    @media #{$phone} {
+        @include fsz(16px);
+    }
+}
+
+.accordion__subTitle {
+    @include fsz(24px);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 4px;
+    @media #{$phone} {
+        @include fsz(14px);
+    }
+}
+
+.accordion__link {
+    @include fsz(24px);
+    font-family: $primary-family;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $black;
+    text-decoration: underline;
+    margin-top: 16px;
+    @media #{$phone} {
+        @include fsz(14px);
+    }
+}
+
+.accordion__bottom {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    background-color: rgba($secondary-light, 0.05);
+    @media #{$phone} {
+        padding-top: 23px;
+        padding-bottom: 14px;
+    }
+}
+
+.accordion__bottomTitle {
+    font-family: $primary-family;
+    @include fsz(24px);
+    color: $grey-darker;
+    font-weight: 700;
+    margin-bottom: 10px;
+    @media #{$phone} {
+        @include fsz(14px);
+        color: $black;
+    }
+}
+
+.accordion__list {
+    font-family: $primary-family;
+    @include fsz(20px);
+    line-height: 1.6;
+    list-style: none;
+    counter-reset: item;
+    margin-left: 28px;
+    @media #{$phone} {
+        @include fsz(14px);
+        color: $black;
+        margin-left: 14px;
+    }
+    li {
+        counter-increment: item;
+        position: relative;
+        &::before {
+            color: $grey-darker;
+            display: inline-block;
+            content: counter(item);
+            font-weight: bold;
+            position: absolute;
+            left: -28px;
+            @media #{$phone} {
+                color: $black;
+                left: -14px;
+            }
+        }
+    }
+}
+
+[data-tab-content] {
+    display: none;
+    transition: all 0.5 ease;
+}
+
+.active[data-tab-content] {
+    display: block;
+    transition: all 0.5 ease;
+}

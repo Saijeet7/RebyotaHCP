@@ -1,0 +1,31 @@
+.sectionTitle__title {
+    @include fsz(44px);
+    font-family: $primary-family;
+    color: $secondary;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 30px;
+    @media #{$phone} {
+        @include fsz(30px);
+        line-height: 1.2;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+}
+
+.sectionTitle__wrap {
+    @include fsz(28px);
+    font-family: $primary-family;
+    color: $black;
+    margin-bottom: 28px;
+    font-weight: 700;
+    p {
+        strong {
+            color: $primary;
+        }
+    }
+    @media #{$phone} {
+        @include fsz(18px);
+        font-weight: 600;
+    }
+}

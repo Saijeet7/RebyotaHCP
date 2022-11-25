@@ -1,0 +1,55 @@
+.cardBlock__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardBlock__card {
+    font-family: $primary-family;
+    background-color: $white;
+    @include fsz(24px);
+    padding: 86px 46px 62px 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 728px;
+    text-align: center;
+    p {
+        margin-bottom: 63px;
+        @media #{$phone} {
+            margin-bottom: 40px;
+        }
+    }
+    margin-bottom: 30px;
+    @media #{$phone} {
+        @include fsz(17px);
+        padding: 47px 20px 50px 20px;
+    }
+}
+
+.cardBlock__img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.cardblock__title {
+    @include fsz(36px);
+    color: $secondary;
+    font-family: $primary-family;
+    font-weight: medium;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    @media #{$phone} {
+        @include fsz(24px);
+        margin-bottom: 20px;
+    }
+}

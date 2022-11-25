@@ -1,0 +1,156 @@
+.infoCard {
+    margin-bottom: 60px;
+    @media #{$phone} {
+        padding-top: 22px;
+    }
+}
+
+.infoCard__logo {
+    width: 285px;
+    height: 45px;
+}
+
+.infoCard__title {
+    font-family: $primary-family;
+    @include fsz(44px);
+    color: $secondary;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    @media #{$phone} {
+        @include fsz(23px);
+        margin-bottom: 20px;
+    }
+}
+
+.infoCard__head {
+    font-family: $primary-family;
+    @include fsz(28px);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.infoCard__top {
+    font-family: $primary-family;
+    @include fsz(28px);
+    color: $black;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    @media #{$phone} {
+        @include fsz(17px);
+        line-height: 1.1;
+        margin-bottom: 30px;
+    }
+}
+
+.infoCard__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.infoCard__image {
+    width: 63%;
+    border-radius: 20px;
+    padding: 5px;
+    background: linear-gradient(90deg, rgba(234, 234, 236, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    @media #{$phone} {
+        background: $white;
+    }
+    @media #{$desktop-medium} {
+        width: 100%;
+    }
+}
+
+.infoCard__figure {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.infoCard__topLabel,
+.infoCard__bottomLabel {
+    font-family: $primary-family;
+    @include fsz(28px);
+    color: rgba($secondary, .85);
+    font-weight: bold;
+    padding: 32px 56px;
+    width: 100%;
+    @media #{$phone} {
+        @include fsz(17px);
+        line-height: 1.1;
+        padding: 15px 45px;
+        text-align: center;
+    }
+}
+
+.infoCard__bottomLabel {
+    color: $white;
+    background: $secondary;
+    @include fsz(24px);
+    font-weight: 500;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    @media #{$phone} {
+        @include fsz(16px);
+        padding: 15px;
+        text-align: left;
+    }
+}
+
+.infoCard__text {
+    width: 33%;
+    margin-top: 100px;
+    @media #{$phone} {
+        margin-top: 35px;
+    }
+    .button {
+        width: 100%;
+        display: block;
+    }
+    @media #{$desktop-medium} {
+        width: 100%;
+    }
+}
+
+.infoCard__textTitle {
+    font-family: $primary-family;
+    @include fsz(32px);
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    @media #{$phone} {
+        @include fsz(17px);
+        line-height: 1.1;
+        margin-bottom: 15px;
+    }
+}
+
+.infoCard__textDescription {
+    padding-left: 25px;
+    margin-bottom: 40px;
+    @media #{$phone} {
+        margin-bottom: 25px;
+    }
+    li {
+        font-family: $primary-family;
+        @include fsz(28px);
+        line-height: 1.3;
+        margin-bottom: 15px;
+        position: relative;
+        @media #{$phone} {
+            @include fsz(16px);
+            line-height: 1.1;
+        }
+        &::before {
+            content: '';
+            width: 9px;
+            height: 9px;
+            position: absolute;
+            background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='9' viewBox='0 0 9 9'%3E%3Ccircle id='Ellipse_8' data-name='Ellipse 8' cx='4.5' cy='4.5' r='4.5' fill='%23ec6c21'/%3E%3C/svg%3E%0A");
+            top: 5px;
+            left: -25px;
+        }
+    }
+}
