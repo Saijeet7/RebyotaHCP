@@ -1,0 +1,33 @@
+.guideList__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.guideList__image {
+    width: 48%;
+    display: flex;
+    justify-content: flex-end;
+    img {
+        width: 427px;
+        height: 516px;
+    }
+}
+
+.guideList__text {
+    width: 50%;
+}
+
+.guideList__title {
+    @include fsz(28px);
+    font-family: $primary-family;
+    font-weight: 600;
+}
+
+.fancyCard__button {
+    .button {
+        padding-left: 87px;
+        padding-right: 87px;
+    }
+}

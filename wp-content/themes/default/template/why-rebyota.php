@@ -571,7 +571,6 @@ the_post();
                             <li><strong>Prior to use,</strong> thaw REBYOTA completely by placing the carton in either a
                                 refrigerator, 36°F to 46°F for approximately 24 hours or placing the carton at room
                                 temperature until thawed</li>
-
                         </ul>
                         <div class="fancyCard__button">
                             <a href="#" class="button">FULL Instructions For Use
@@ -618,71 +617,71 @@ the_post();
 
     </div>
     <section class="accordion">
-            <div class="accordion__top">
-                <div class="container">
-                    <div class="accordion__topWrapper">
-                        <h2 class="accordion__topTitle">Important Safety information</h2>
-                        <div class="accordion__accoridoinButton" type="button">
-                            <svg class="icon accordion__icon icon-minus">
-                                <use xlink:href="#icon-minus"></use>
+        <div class="accordion__top">
+            <div class="container">
+                <div class="accordion__topWrapper">
+                    <h2 class="accordion__topTitle">Important Safety information</h2>
+                    <div class="accordion__accoridoinButton" type="button">
+                        <svg class="icon accordion__icon icon-minus">
+                            <use xlink:href="#icon-minus"></use>
+                        </svg>
+                        <button class="accordion__plus" type="button">
+                            <svg class="icon accordion__icon icon-plus">
+                                <use xlink:href="#icon-plus"></use>
                             </svg>
-                            <button class="accordion__plus" type="button">
-                                <svg class="icon accordion__icon icon-plus">
-                                    <use xlink:href="#icon-plus"></use>
-                                </svg>
-                            </button>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
-            <div class="accordion__body">
+        </div>
+        <div class="accordion__body">
+            <div class="container">
+                <div class="accordion__wrap">
+                    <h3 class="accordion__title">Indication For Use</h3>
+                    <p>REBYOTA (bacrodiome-mcrb) is indicated to reduce the recurrence of Clostridioides difficile
+                        infection (CDI) in adults following antibiotic treatment for recurrent CDI.</p>
+                    <h3 class="accordion__title">Important Safety Information</h3>
+                    <p><strong class="accordion__subTitle">Contraindications</strong></p>
+                    <p>REBYOTA has no identified contraindications.</p>
+                    <p><strong class="accordion__subTitle">Warnings and Precautions</strong></p>
+                    <p>No serious hypersensitivity reactions have been reported in patients treated with REBYOTA. Do
+                        not use in patients with a previous hypersensitivity to REBYOTA or any of the product
+                        components.</p>
+                    <p><strong class="accordion__subTitle">Adverse Reactions</strong></p>
+                    <p>The most common adverse reactions following blinded treatment with REBYOTA (reported by ≥5%
+                        of all subjects and greater than placebo) were diarrhea and abdominal pain.</p>
+                    <p><strong class="accordion__subTitle"> Interactions</strong></p>
+                    <p>Since REBYOTA is not absorbed into the body, no metabolic drug-drug interactions are
+                        expected.</p>
+                    <p><strong class="accordion__subTitle">Use In Specific Populations</strong></p>
+                    <p class="accordion__subTitle">Geriatric Use</p>
+                    <p>Of the 749 patients treated with REBYOTA, 47.9% were ≥65 years of age, and 25.8% were ≥75
+                        years of age. No overall differences in safety and efficacy were observed between these
+                        subjects and younger subjects. No dose adjustment is necessary for patients ≥65 years of
+                        age.</p>
+                    <p>You are encouraged to report negative side effects of prescription drugs to FDA. Visit
+                        www.FDA.gov/medwatch, or call 1-800-FDA-1088. </p>
+                    <a href="#" class="accordion__link">
+                        <p>Please click here for full Prescribing Information. </p>
+                    </a>
+                </div>
+            </div>
+            <div class="accordion__bottom">
                 <div class="container">
-                    <div class="accordion__wrap">
-                        <h3 class="accordion__title">Indication For Use</h3>
-                        <p>REBYOTA (bacrodiome-mcrb) is indicated to reduce the recurrence of Clostridioides difficile
-                            infection (CDI) in adults following antibiotic treatment for recurrent CDI.</p>
-                        <h3 class="accordion__title">Important Safety Information</h3>
-                        <p><strong class="accordion__subTitle">Contraindications</strong></p>
-                        <p>REBYOTA has no identified contraindications.</p>
-                        <p><strong class="accordion__subTitle">Warnings and Precautions</strong></p>
-                        <p>No serious hypersensitivity reactions have been reported in patients treated with REBYOTA. Do
-                            not use in patients with a previous hypersensitivity to REBYOTA or any of the product
-                            components.</p>
-                        <p><strong class="accordion__subTitle">Adverse Reactions</strong></p>
-                        <p>The most common adverse reactions following blinded treatment with REBYOTA (reported by ≥5%
-                            of all subjects and greater than placebo) were diarrhea and abdominal pain.</p>
-                        <p><strong class="accordion__subTitle"> Interactions</strong></p>
-                        <p>Since REBYOTA is not absorbed into the body, no metabolic drug-drug interactions are
-                            expected.</p>
-                        <p><strong class="accordion__subTitle">Use In Specific Populations</strong></p>
-                        <p class="accordion__subTitle">Geriatric Use</p>
-                        <p>Of the 749 patients treated with REBYOTA, 47.9% were ≥65 years of age, and 25.8% were ≥75
-                            years of age. No overall differences in safety and efficacy were observed between these
-                            subjects and younger subjects. No dose adjustment is necessary for patients ≥65 years of
-                            age.</p>
-                        <p>You are encouraged to report negative side effects of prescription drugs to FDA. Visit
-                            www.FDA.gov/medwatch, or call 1-800-FDA-1088. </p>
-                        <a href="#" class="accordion__link">
-                            <p>Please click here for full Prescribing Information. </p>
-                        </a>
-                    </div>
-                </div>
-                <div class="accordion__bottom">
-                    <div class="container">
-                        <h3 class="accordion__bottomTitle">References</h3>
-                        <ol class="accordion__list">
-                            <li>Rebyota. Prescribing Information. Parsippany, NJ: Ferring Pharmaceuticals Inc; 2022.
-                            </li>
-                            <li>Sicard J-F, Le Bihan G, Vogeleer P, Jacques M, Harel J. Interactions of intestinal
-                                bacteria
-                                with components of intestinal mucus. Front Call Infect Microbiol. 2017;7:387.
-                                doi:10.3389/fcimb.2017.00387
-                            </li>
-                        </ol>
-                    </div>
+                    <h3 class="accordion__bottomTitle">References</h3>
+                    <ol class="accordion__list">
+                        <li>Rebyota. Prescribing Information. Parsippany, NJ: Ferring Pharmaceuticals Inc; 2022.
+                        </li>
+                        <li>Sicard J-F, Le Bihan G, Vogeleer P, Jacques M, Harel J. Interactions of intestinal
+                            bacteria
+                            with components of intestinal mucus. Front Call Infect Microbiol. 2017;7:387.
+                            doi:10.3389/fcimb.2017.00387
+                        </li>
+                    </ol>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
 
