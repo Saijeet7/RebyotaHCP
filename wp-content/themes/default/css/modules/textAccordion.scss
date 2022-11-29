@@ -41,3 +41,34 @@
 .textAccordion__body {
     display: none;
 }
+
+.textAccordion__description {
+    padding-left: 25px;
+    li {
+        font-family: $primary-family;
+        @include fsz(28px);
+        line-height: 1.3;
+        position: relative;
+        @media #{$phone} {
+            @include fsz(16px);
+            line-height: 1.1;
+        }
+        &::before {
+            content: '';
+            width: 9px;
+            height: 9px;
+            position: absolute;
+            background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='9' viewBox='0 0 9 9'%3E%3Ccircle id='Ellipse_8' data-name='Ellipse 8' cx='4.5' cy='4.5' r='4.5' fill='%23ec6c21'/%3E%3C/svg%3E%0A");
+            top: 10px;
+            left: -25px;
+        }
+    }
+}
+
+.textAccordion__description--alt {
+    li {
+        @include fsz(23px);
+        line-height: 1.2;
+        text-align: left;
+    }
+}

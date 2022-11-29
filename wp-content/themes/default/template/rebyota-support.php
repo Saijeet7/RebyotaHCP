@@ -178,5 +178,85 @@ the_post();
             </div>
         </div>
     </section>
+
+    <div class="backgroundWrapper backgroundWrapper--alt" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/backgroundWrapper.jpg')">
+        <section class="fancyCard">
+            <div class="container">
+                <div class="fancyCard__top">
+                    <h2 class="sectionTitle__title"><span class="logo logo--large"><strong>RE</strong>BYOTA</span>
+                        SUPPOPRT FOR <strong>PROIVIDES</strong>
+                    </h2>
+                </div>
+                <div class="fancyCard__wrap">
+                    <div class="fancyCard__wrapInner">
+                        <table class="fancyCard__table">
+                            <tr>
+                                <th class="fancyCard__head fancyCard__head--alt fancyCard__head--larger">
+                                    <p>Summary of Services Offered Through REBYOTA Connect</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td class="fancyCard__content  fancyCard__content--larger fancyCard__content--alt">
+                                    <p><strong>Access and
+                                            Reimbursement
+                                            Services</strong>
+                                    </p>
+                                </td>
+                                <td class="fancyCard__content ">
+                                    <ul class="textAccordion__description textAccordion__description--alt">
+                                        <li>Benefits investigation
+                                        </li>
+                                        <li>Prior authorization (PA) information
+                                        </li>
+                                        <li>Appeals assistance for PA or claim denials
+                                        </li>
+                                        <li>Billing and coding support
+                                        </li>
+                                    </ul>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="fancyCard__content  fancyCard__content--larger fancyCard__content--alt">
+                                    <p><strong>Co-pay Support Program</strong>
+                                    </p>
+                                </td>
+                                <td class="fancyCard__content ">
+                                    <p>Screen patients for eligibility for co-pay support and, if eligible, initiate enrollment in
+                                        the REBYOTA co-pay program</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fancyCard__content  fancyCard__content--larger fancyCard__content--alt">
+                                    <p><strong>Patient Assistance Free Drug Program</strong>
+                                    </p>
+                                </td>
+                                <td class="fancyCard__content ">
+                                    <p>Screen patients for eligibility into the patient assistance program which provides REBYOTA at no cost to eligible patients. Assistance for eligible patients will be provided
+                                        in the form of free product shipped to site of administration or reimbursement for the purchase price of the product if processed after product administration.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fancyCard__content  fancyCard__content--larger fancyCard__content--alt">
+                                    <p><strong>Patient Education</strong>
+                                    </p>
+                                </td>
+                                <td class="fancyCard__content ">
+                                    <p>Refer patients to REBYOTA educational materials, C. <em>difficile</em> support groups, and/or state health exchanges if they are uninsured.
+                                    </p>
+                                </td>
+                            </tr>
+
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
 </main>
 <?php get_footer(); ?>
