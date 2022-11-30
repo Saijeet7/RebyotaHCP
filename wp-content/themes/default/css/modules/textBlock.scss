@@ -1,0 +1,13 @@
+.textBlock__text {
+    font-family: $primary-family;
+    @include fsz(28px);
+    color: $black;
+    margin-bottom: 52px;
+}
+
+.textBlock__title {
+    color: $primary;
+    @include fsz(30px);
+    font-weight: 600;
+    margin-bottom: 42px;
+}
