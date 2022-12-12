@@ -3,8 +3,7 @@ get_header();
 the_post();
 ?>
 <main class="page__home">
-    <section class="hero hero--alt"
-        style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/hero2.jpg')">
+    <section class="hero hero--alt" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/hero2.jpg')">
         <div class="container">
             <h1 class="hero__title hero__title--alt ">Why <strong><span>RE</span>BYOTA<sup>®</sup></strong>
             </h1>
@@ -21,8 +20,7 @@ the_post();
         </div>
     </section>
 
-    <div class="backgroundWrapper backgroundWrapper--alt"
-        style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/backgroundWrapper.jpg')">
+    <div class="backgroundWrapper backgroundWrapper--alt" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/backgroundWrapper.jpg')">
 
         <section class="sectionTitle">
             <div class="container">
@@ -39,203 +37,165 @@ the_post();
             </div>
         </section>
 
-        <section class="fancyCard">
+        <section class="table-block">
             <div class="container">
-                <div class="fancyCard__wrap">
-                    <div class="fancyCard__wrapInner">
-                        <table class="fancyCard__table">
+                <div class="fancy-card">
+                    <span class="table-block__border"></span>
+                    <table class="table-block__table table-block__table--primary">
+                        <thead>
                             <tr>
-                                <th class="fancyCard__head fancyCard__head--larger">
-                                    <p>Study design criteria<sub class="sub">1,3</sub></p>
-                                </th>
-                                <th class="fancyCard__head">
-                                    <p><strong>PUNCH<sub class="super super--smaller">TM</sub></strong> CD (Phase 2)
-                                    </p>
-                                </th>
-                                <th class="fancyCard__head">
-                                    <p><strong>PUNCH<sub class="super super--smaller">TM</sub></strong> CD2 (Phase 2b)
-                                    </p>
-                                </th>
-                                <th class="fancyCard__head">
-                                    <p><strong>PUNCH<sub class="super super--smaller">TM</sub></strong> Open-Label
-                                        (Phase 2)
-                                    </p>
-                                </th>
-                                <th class="fancyCard__head">
-                                    <p><strong>PUNCH<sub class="super super--smaller">TM</sub></strong> CD3 (Phase 3)
-                                    </p>
-                                </th>
-                                <th class="fancyCard__head">
-                                    <p><strong>PUNCH<sub class="super super--smaller">TM</sub></strong> CD3-OLS (Phase
-                                        3)
-                                    </p>
-                                </th>
-                                <th class="fancyCard__head">
-                                    <p><strong>Real-World Retrospective Study</strong>
-                                </th>
+                                <th><strong>STUDY DESIGN CRITERIA</strong><sup>1,3</sup></th>
+                                <th><strong>PUNCH<sup>TM</sup></strong>CD (Phase 2)</th>
+                                <th><strong>PUNCH<sup>TM</sup></strong>CD (Phase 2b)</th>
+                                <th><strong>PUNCH<sup>TM</sup></strong>Open-Label (Phase 2)</th>
+                                <th><strong>PUNCH<sup>TM</sup></strong>CD3 (Phase 3)</th>
+                                <th><strong>PUNCH<sup>TM</sup></strong>CD3-OLS (Phase 3)</th>
+                                <th><strong>Real-World Retrospective Study</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Patients Enrolled</td>
+                                <td>N=40</td>
+                                <td>N=150</td>
+                                <td>N=272</td>
+                                <td>N=320</td>
+                                <td>N=483 <em>Interim data; enrollment ongoing</em></td>
+                                <td>N=94</td>
                             </tr>
                             <tr>
-                                <td class="fancyCard__content fancyCard__content--larger">
-                                    <p>Total Patients Enrolled</p>
+                                <td>
+                                    <strong>CONSISTENT</strong> Population patients with recurrent CDI
                                 </td>
-                                <td class="fancyCard__content ">
-                                    <p>N=40</p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p>N=150</p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p>N=272</p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p>N=320</p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p>N=483 <br><em>Interim data; enrollment ongoing</em></p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p>N=94</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="fancyCard__content fancyCard__content--larger">
-                                    <p><strong>CONSISTENT</strong> Population:
-                                        patients with recurrent CDI</p>
-                                </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="fancyCard__content fancyCard__content--larger">
-                                    <p><strong>CONSISTENT</strong> Composition
-                                        <span class="font-regular">Broad consotium of bacteria</span>
-                                    </p>
+                                <td>
+                                    <strong>CONSISTENT</strong> Composition Broad consortium of bacteria
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="fancyCard__content fancyCard__content--larger">
-                                    <p><strong>CONSISTENT</strong> Endpoint
-                                        <span class="font-regular">Absence of CDI diarrhea within 8 weeks</span>
-                                    </p>
+                                <td>
+                                    <strong>CONSISTENT</strong> Endpoint Absence of CDI diarrhea within 8 weeks
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content "><svg class="icon icon-tick">
+                                <td><svg class="icon icon-tick">
                                         <use xlink:href="#icon-tick"></use>
                                     </svg>
                                 </td>
-                                <td class="fancyCard__content ">
-                                    <p>Safety</p>
+                                <td>Safety
                                 </td>
                             </tr>
                             <tr>
-                                <td class="fancyCard__content fancyCard__content--larger">
-                                    <p><strong>Study Type</strong></p>
+                                <td>
+                                    Study Type
                                 </td>
-                                <td class="fancyCard__content ">
-                                    <p>Open-label</p>
+                                <td>
+                                    Open-label
                                 </td>
-                                <td class="fancyCard__content ">
-                                    <p>Randomized, controlled</p>
+                                <td>
+                                    Randomized, controlled
                                 </td>
-                                <td class="fancyCard__content ">
-                                    <p>Open-label</p>
+                                <td>
+                                    Open-label
                                 </td>
-                                <td class="fancyCard__content ">
-                                    <p>Randomized, controlled</p>
+                                <td>
+                                    Randomized, controlled
                                 </td>
-                                <td class="fancyCard__content ">
-                                    <p>Open-label</p>
+                                <td>
+                                    Open-label
                                 </td>
-                                <td class="fancyCard__content ">
-                                    <p>Open-label</p>
+                                <td>
+                                    Open-label
                                 </td>
                             </tr>
                             <tr>
-                                <td class="fancyCard__content fancyCard__content--larger fancyCard__content--border">
-                                    <p><strong>Follow-Up Duration</strong></p>
+                                <td>
+                                    Follow-Up Duration
                                 </td>
-                                <td class="fancyCard__content fancyCard__content--border">
-                                    <p>6 months</p>
+                                <td>
+                                    6 months
                                 </td>
-                                <td class="fancyCard__content fancyCard__content--border">
-                                    <p>24 months</p>
+                                <td>
+                                    24 months
                                 </td>
-                                <td class="fancyCard__content fancyCard__content--border">
-                                    <p>24 months</p>
+                                <td>
+                                    24 months
                                 </td>
-                                <td class="fancyCard__content fancyCard__content--border">
-                                    <p>6 months</p>
+                                <td>
+                                    6 months
                                 </td>
-                                <td class="fancyCard__content fancyCard__content--border">
-                                    <p>6 months</p>
+                                <td>
+                                    6 months
                                 </td>
-                                <td class="fancyCard__content fancyCard__content--border">
-                                    <p>6 months</p>
+                                <td>
+                                    6 months
                                 </td>
                             </tr>
-                        </table>
-                    </div>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
@@ -251,6 +211,7 @@ the_post();
                     <li><strong>32.3% of patients treated were at first CDI recurrence<sup>1,3</sup></strong></li>
                 </ul>
                 <div class="fancyCard__wrap">
+                    <span class="table-block__border"></span>
                     <div class="fancyCard__wrapInner">
                         <div class="fancyCard__text">
                             <p><strong>Investigator's choice: </strong>Diagnostic test(s) used and selection of
@@ -260,8 +221,7 @@ the_post();
                             </p>
                         </div>
                         <figure class="fancyCard__image">
-                            <img src="<?php echo get_template_directory_uri() ?> /uploads/flowchart.png"
-                                alt="Flowchart" />
+                            <img src="<?php echo get_template_directory_uri() ?> /uploads/flowchart.png" alt="Flowchart" />
                         </figure>
                     </div>
                 </div>
@@ -300,8 +260,7 @@ the_post();
                             </p>
                         </div>
                         <figure class="fancyCard__imageAbsoulte">
-                            <img src="<?php echo get_template_directory_uri() ?> /uploads/flower2.png"
-                                alt="Flowchart" />
+                            <img src="<?php echo get_template_directory_uri() ?> /uploads/flower2.png" alt="Flowchart" />
                         </figure>
 
                     </div>
@@ -310,8 +269,7 @@ the_post();
                     <p><sup>c</sup>Treatment success was defined as no CDI-related diarrhea at 8
                         weeks.<sup>1,3</sup>
                     </p>
-                    <p><sup>d</sup>dSubgroup of CDI episodes was ≤3 vs >3 episodes; subgroup of age was <65 vs ≥65
-                            years.<sup>1,3</sup></p>
+                    <p><sup>d</sup>dSubgroup of CDI episodes was ≤3 vs >3 episodes; subgroup of age was <65 vs ≥65 years.<sup>1,3</sup></p>
                 </div>
             </div>
         </section>
@@ -325,60 +283,45 @@ the_post();
                             adults in the
                             blinded portion of the phase 3 trial (safety population)1,3e</strong></p>
                 </div>
-                <div class="fancyCard__wrap">
-                    <div class="fancyCard__wrapInner">
-                        <table class="fancyCard__table">
-                            <tr>
-                                <th class="fancyCard__head fancyCard__head--alt fancyCard__head--larger">
-                                    <p>ADVERSE EVENT</p>
-                                </th>
-                                <th class="fancyCard__head fancyCard__head--alt">
-                                    <p><strong>REBYOTA</strong> n=180
-                                    </p>
-                                </th>
-                                <th class="fancyCard__head fancyCard__head--alt">
-                                    <p><strong>Placebo </strong>n=87
-                                    </p>
-                                </th>
-                            </tr>
-                            <tr>
-                                <td class="fancyCard__content  fancyCard__content--larger fancyCard__content--alt">
-                                    <p>Gastrointestinal disorder,n(%)</p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p></p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="fancyCard__content fancyCard__content--larger">
-                                    <p>Abdominal pain</p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p>16 (8.9%)</p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p>6 (6.9%)</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="fancyCard__content fancyCard__content--larger">
-                                    <p>Diarrhea</p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p>13 (7.2%)</p>
-                                </td>
-                                <td class="fancyCard__content ">
-                                    <p>3 (3.4%)</p>
-                                </td>
-                            </tr>
 
-                        </table>
-
-                    </div>
+                <div class="fancy-card">
+                    <span class="table-block__border"></span>
+                    <table class="table-block__table table-block__table--primary table-block__table--primaryAlt">
+                        <thead>
+                            <tr>
+                                <th>ADVERSE EVENT</th>
+                                <th><strong>REBYOTA</strong><br> N=180</th>
+                                <th><strong>Placebo</strong><br> N=87</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Gastrointestinal disorder, n(%)</strong></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                            <td>
+                                    Abdominal pain
+                                </td>
+                                <td>16 (8.9%)
+                                </td>
+                                <td>6 (6.9%)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Diarrhea
+                                </td>
+                                <td>13 (7.2%)
+                                </td>
+                                <td>3 (3.4%)
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+
 
                 <h3 class="fancyCard__bottomTitle">In all patients within the blinded portion of the phase 3 trial
                     (safety population)<sup>1,3</sup></h3>
@@ -399,8 +342,7 @@ the_post();
         <section class="fancyCard">
             <div class="container">
                 <div class="fancyCard__top fancyCard__top--alt">
-                    <h2 class="sectionTitle__title"><span
-                            class="logo logo--large"><strong>RE</strong>BYOTA</span><strong>
+                    <h2 class="sectionTitle__title"><span class="logo logo--large"><strong>RE</strong>BYOTA</span><strong>
                             DURABILITY MAINTAINED</strong> THROUGH 24 MONTHS
                     </h2>
                     <p><strong>In the PUNCH™ open-label trial…<sup>4</sup></strong></p>
@@ -409,8 +351,7 @@ the_post();
                     <div class="fancyCard__wrapInner">
                         <div class="fancyCard__flex">
                             <figure class="fancyCard__imageLarge">
-                                <img src="<?php echo get_template_directory_uri() ?> /uploads/flower3.png"
-                                    alt="Flower Image" />
+                                <img src="<?php echo get_template_directory_uri() ?> /uploads/flower3.png" alt="Flower Image" />
                             </figure>
                             <div class="fancyCard__description fancyCard__description--flex">
                                 <p><strong>Treatment success was met in 78.9% (112/142) of patients at 8
@@ -508,13 +449,11 @@ the_post();
         </div>
     </section>
 
-    <div class="backgroundWrapper"
-        style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/backgroundWrapper.jpg')">
+    <div class="backgroundWrapper" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/backgroundWrapper.jpg')">
 
         <section class="fancyCard">
             <div class="container">
-                <h2 class="sectionTitle__title"><span
-                        class="logo logo--large"><strong>RE</strong>BYOTA<sup>®</sup></span><strong> ADMINISTRATION
+                <h2 class="sectionTitle__title"><span class="logo logo--large"><strong>RE</strong>BYOTA<sup>®</sup></span><strong> ADMINISTRATION
                     </strong>
                 </h2>
                 <div class="sectionTitle__title">

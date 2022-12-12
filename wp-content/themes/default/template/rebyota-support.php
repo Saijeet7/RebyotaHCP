@@ -85,56 +85,176 @@ the_post();
                 </h2>
                 <p><strong>Table of Codes</strong></p>
             </div>
-            <div class="fancyCard__wrap">
-                <div class="fancyCard__wrapInner">
-                    <table class="fancyCard__table">
-                        <tr>
-                            <th class="fancyCard__head fancyCard__head--alt fancyCard__head--larger">
-                                <p>HOSPITAL INPATIENT CODES</p>
-                            </th>
-                            <th class="fancyCard__head fancyCard__head--alt">
-                                <p><strong>DESCRIPTION</strong>
-                                </p>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td class="fancyCard__content  fancyCard__content--larger fancyCard__content--alt">
-                                <p><strong>C. DIFFICILE
-                                        DIAGNOSIS CODES</strong>
-                                </p>
-                            </td>
-                            <td class="fancyCard__content ">
-                                <p>ICD-10</p>
-                            </td>
-                            <td class="fancyCard__content ">
+
+            <div class="fancy-card fancy-card--paddingTop">
+                <span class="table-block__border"></span>
+                <div class="fancy-table">
+                    <div class="fancy-table__head">
+                        <div class="fancy-table__heading">
+                            <p>HOSPITAL INPATIENT CODES</p>
+                        </div>
+                        <div class="fancy-table__heading fancy-table__heading--large">
+                            <p>DESCRIPTION</p>
+                        </div>
+                    </div>
+                    <div class="fancy-table__body">
+                        <div class="fancy-table__row">
+                            <div class="fancy-table__column fancy-table__column--first">
+                                <p>C. <em>DIFFICILE</em>
+                                    DIAGNOSIS CODES</p>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--second">
+                                <div class="fancy-table__column--inner">
+                                    <p>ICD-10</p>
+                                </div>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--third">
+                                <div class="fancy-table__column--inner">
+                                    <p>A0471</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>A0472</p>
+                                </div>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--forth">
+                                <div class="fancy-table__column--inner">
+                                    <p>Enterocolitis due to Clostridium difficile, recurrent</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>Enterocolitis due to Clostridium difficile, not specified as recurrent</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fancy-table__row">
+                            <div class="fancy-table__column fancy-table__column--first">
+                                <p>PRODUCT
+                                    ADMINISTRATION
+                                    CODES</p>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--second">
+                                <div class="fancy-table__column--inner">
+                                    <p>CPT</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>NTAP</p>
+                                </div>
+
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--third">
+                                <div class="fancy-table__column--inner">
+                                    <p>X041T</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>XXXXX</p>
+                                </div>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--forth">
+                                <div class="fancy-table__column--inner">
+                                    <p>Administration and instillation of therapeutic agent via rectum into lower gastrointestinal tract</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>New technology code for REBYOTA (add-on payment to a specific DRG)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fancy-table">
+                    <div class="fancy-table__head">
+                        <div class="fancy-table__heading">
+                            <p>HOSPITAL OUTPATIENT
+                                OR PHYSICIAN CODES</p>
+                        </div>
+                        <div class="fancy-table__heading fancy-table__heading--large">
+                            <p>DESCRIPTION</p>
+                        </div>
+                    </div>
+                    <div class="fancy-table__body">
+                        <div class="fancy-table__row">
+                            <div class="fancy-table__column fancy-table__column--first">
+                                <p>C. <em>DIFFICILE</em>
+                                    DIAGNOSIS CODES</p>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--second">
+                                <div class="fancy-table__column--inner">
+                                    <p>ICD-10</p>
+                                </div>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--third">
+                                <div class="fancy-table__column--inner">
+                                    <p>A0471</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>A0472</p>
+                                </div>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--forth">
+                                <div class="fancy-table__column--inner">
+                                    <p>Enterocolitis due to Clostridium difficile, recurrent</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>Enterocolitis due to Clostridium difficile, not specified as recurrent</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fancy-table__row">
+                            <div class="fancy-table__column fancy-table__column--first">
+                                <p>PRODUCT
+                                    ADMINISTRATION
+                                    CODES</p>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--second">
+                                <div class="fancy-table__column--inner">
+                                    <p>CPT</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>HCPCS C</p>
+                                </div>
+
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--third">
+                                <div class="fancy-table__column--inner">
+                                    <p>X041T</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>C9399</p>
+                                </div>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--forth">
+                                <div class="fancy-table__column--inner">
+                                    <p>Administration and instillation of therapeutic agent via rectum into lower gastrointestinal tract</p>
+                                </div>
+                                <div class="fancy-table__column--inner">
+                                    <p>Miscellaneous code for REBYOTA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fancy-table__row fancy-table__row--border">
+                            <div class="fancy-table__column fancy-table__column--border  fancy-table__column--first fancy-table__column--alt">
                                 <p></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fancyCard__content fancyCard__content--larger">
-                                <p>Abdominal pain</p>
-                            </td>
-                            <td class="fancyCard__content ">
-                                <p>16 (8.9%)</p>
-                            </td>
-                            <td class="fancyCard__content ">
-                                <p>6 (6.9%)</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="fancyCard__content fancyCard__content--larger">
-                                <p>Diarrhea</p>
-                            </td>
-                            <td class="fancyCard__content ">
-                                <p>13 (7.2%)</p>
-                            </td>
-                            <td class="fancyCard__content ">
-                                <p>3 (3.4%)</p>
-                            </td>
-                        </tr>
-                    </table>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--border fancy-table__column--second">
+                                <div class="fancy-table__column--inner">
+                                    <p>HCPCS C</p>
+                                </div>
+
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--border fancy-table__column--third">
+                                <div class="fancy-table__column--inner">
+                                    <p>J3590</p>
+                                </div>
+                            </div>
+                            <div class="fancy-table__column fancy-table__column--border fancy-table__column--forth">
+                                <div class="fancy-table__column--inner">
+                                    <p>Miscellaneous code for REBYOTA</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
+
             <div class="fancyCard__textBottom">
                 <p>Disclaimer: all codes are subject to change.
                 </p>
@@ -177,6 +297,7 @@ the_post();
     </section>
 
     <div class="backgroundWrapper backgroundWrapper--alt" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/backgroundWrapper.jpg')">
+
         <section class="fancyCard">
             <div class="container">
                 <div class="fancyCard__top">
@@ -184,22 +305,18 @@ the_post();
                         SUPPOPRT FOR <strong>PROIVIDES</strong>
                     </h2>
                 </div>
-                <div class="fancyCard__wrap">
-                    <div class="fancyCard__wrapInner">
-                        <table class="fancyCard__table">
+                <div class="fancy-card fancy-card--larger">
+                    <span class="table-block__border"></span>
+                    <table class="table-block__table table-block__table--primary table-block__table--secondary">
+                        <thead>
                             <tr>
-                                <th class="fancyCard__head fancyCard__head--alt fancyCard__head--larger" colspan="2">
-                                    <p>Summary of Services Offered Through REBYOTA Connect</p>
-                                </th>
+                                <th class="table-block__heading" colspan="2">Summary of Services Offered Through REBYOTA Connect</th>
                             </tr>
+                        </thead>
+                        <tbody>
                             <tr>
-                                <td class="fancyCard__content  fancyCard__content--larger " colspan="1">
-                                    <p><strong>Access and
-                                            Reimbursement
-                                            Services</strong>
-                                    </p>
-                                </td>
-                                <td class="fancyCard__content" colspan="2">
+                                <td><strong>Access and Reimbursement Services</strong></td>
+                                <td>
                                     <ul class="textAccordion__description textAccordion__description--alt">
                                         <li>Benefits investigation
                                         </li>
@@ -210,46 +327,40 @@ the_post();
                                         <li>Billing and coding support
                                         </li>
                                     </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Co-pay Support Program
+                                </td>
+                                <td>Screen patients for eligibility for co-pay support and, if eligible, initiate enrollment in
+                                    the REBYOTA co-pay program
+                                </td>
 
+                            </tr>
+                            <tr>
+                                <td>
+                                    Patient Assistance Free Drug Program
+                                </td>
+                                <td>
+                                    Screen patients for eligibility into the patient assistance program which provides REBYOTA at no cost to eligible patients. Assistance for eligible patients will be provided
+                                    in the form of free product shipped to site of administration or reimbursement for the purchase price of the product if processed after product administration.
                                 </td>
                             </tr>
                             <tr>
-                                <td class="fancyCard__content  fancyCard__content--larger " colspan="1">
-                                    <p><strong>Co-pay Support Program</strong>
-                                    </p>
+                                <td>
+                                    Patient Education
                                 </td>
-                                <td class="fancyCard__content " colspan="2">
-                                    <p>Screen patients for eligibility for co-pay support and, if eligible, initiate enrollment in
-                                        the REBYOTA co-pay program</p>
+                                <td>
+                                    Refer patients to REBYOTA educational materials, C. difficile support groups, and/or state health exchanges if they are uninsured.
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="fancyCard__content  fancyCard__content--larger " colspan="1">
-                                    <p><strong>Patient Assistance Free Drug Program</strong>
-                                    </p>
-                                </td>
-                                <td class="fancyCard__content" colspan="2">
-                                    <p>Screen patients for eligibility into the patient assistance program which provides REBYOTA at no cost to eligible patients. Assistance for eligible patients will be provided
-                                        in the form of free product shipped to site of administration or reimbursement for the purchase price of the product if processed after product administration.
-                                    </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="fancyCard__content  fancyCard__content--larger" colspan="1">
-                                    <p><strong>Patient Education</strong>
-                                    </p>
-                                </td>
-                                <td class="fancyCard__content" colspan="2">
-                                    <p>Refer patients to REBYOTA educational materials, C. <em>difficile</em> support groups, and/or state health exchanges if they are uninsured.
-                                    </p>
-                                </td>
-                            </tr>
-                        </table>
-
-                    </div>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
+
 
         <section class="columnBlock">
             <div class="container">

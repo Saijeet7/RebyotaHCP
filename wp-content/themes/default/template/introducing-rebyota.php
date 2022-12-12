@@ -13,8 +13,8 @@ the_post();
             </h2>
         </div>
         <div class="hero__banner ">
-            <div class="hero__bannerInner">
-                <div class="container">
+            <div class="container">
+                <div class="hero__bannerInner">
                     <p>REBYOTA is the first and only FDA-approved microbiota-based live biotherapeutic to reduce
                         recurrence of C. difficile infection
                         <strong>STARTING AT FIRST RECURRENCE.<sup>1</sup></strong>

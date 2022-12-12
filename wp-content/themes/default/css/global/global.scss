@@ -1,85 +1,85 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 body {
-  font-size: $base-font-size;
-  line-height: 1.375;
-  font-family: $primary-family;
-  color: #000000;
+    font-size: $base-font-size;
+    line-height: 1.375;
+    font-family: $primary-family;
+    color: #000000;
 }
 
 a {
-  text-decoration: none;
-  transition: .3s;
-
-  &:focus,
-  &:active {
-    outline: none;
-  }
+    text-decoration: none;
+    transition: .3s;
+    &:focus,
+    &:active {
+        outline: none;
+    }
 }
 
 .video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 0;
-  height: 0;
-  overflow: hidden;
-
-  .video-js,
-  > iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+    .video-js,
+    >iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .accessible-text,
 .screen-reader-text {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  top: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    top: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 .clearfix {
-  *zoom: 1;
-
-  &:before,
-  &:after {
-    display: table;
-    content: "";
-    line-height: 0;
-  }
-
-  &:after {
-    clear: both;
-  }
+    *zoom: 1;
+    &:before,
+    &:after {
+        display: table;
+        content: "";
+        line-height: 0;
+    }
+    &:after {
+        clear: both;
+    }
 }
 
 .container {
-  max-width: $site-width;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  box-sizing: border-box;
-  margin: 0 auto;
+    max-width: $site-width;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .site {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
